@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bai4.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Checkout</h1>
+        <a href="#" class="back">← Back</a>
+      </header>
+
+      <section class="card row">
+        <div>
+          <h2>Delivery Address</h2>
+          <p>123 Lake Street, District 2</p>
+        </div>
+        <button class="btn-outline">Change</button>
+      </section>
+
+      <section class="card">
+        <h2>Items</h2>
+
+        <article class="item">
+          <div>
+            <h3>Wireless Headphones</h3>
+            <p>Qty: 1</p>
+          </div>
+          <img
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTV1IddyFDzBtf8pd4Kv_VnZ2Km2tkSyOWp3NcT7k19ZhgxgVsv-I8Sz-ZGmrP9ts9uhaS2WIqBDBE3p1h8LNJEtAaehoiApKkv6Y-JmLZb3QLG-QWbTuTziAX5wRabALo9Igq2_wo5&usqp=CAc"
+            alt="Wireless Headphones"
+          />
+          <strong>$79</strong>
+        </article>
+
+        <article class="item">
+          <div>
+            <h3>Phone Stand</h3>
+            <p>Qty: 2</p>
+          </div>
+          <img
+            src="data:image/webp;base64,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"
+            alt="Phone Stand"
+          />
+          <strong>$24</strong>
+        </article>
+      </section>
+
+      <section class="card">
+        <h2>Payment Method</h2>
+
+        <label class="radio">
+          <input type="radio" name="pay" checked />
+          <span>Credit Card</span>
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="pay" />
+          <span>E-Wallet</span>
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="pay" />
+          <span>Cash on Delivery</span>
+        </label>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Total: <strong>$103</strong></p>
+      <button class="btn">Place Order</button>
+    </footer>
+  </body>
+</html>
